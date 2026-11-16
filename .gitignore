@@ -1,0 +1,30 @@
+# Node / Vite / TypeScript
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Rust / Tauri
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Editors & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
